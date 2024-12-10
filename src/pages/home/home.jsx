@@ -9,8 +9,8 @@ import { EmailIcon } from "../../assets/svgs/contact/EmailIcon";
 import { CopyIcon } from "../../assets/svgs/contact/CopyIcon";
 import { TelIcon } from "../../assets/svgs/contact/TelIcon";
 
-const img = "/assets/images/Anonymous.jpg";
-const logo = "/assets/images/logo_transparent.png";
+const img = "/Anonymous.jpg";
+const logo = "/logo_transparent.png";
 
 const Portfolio = () => {
   const [darkMode, setDarkMode] = useState(false);
