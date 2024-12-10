@@ -357,9 +357,16 @@ const Portfolio = () => {
 
       <footer className={`py-5 ${darkMode ? "bg-darkaccent" : "bg-accent"}`}>
         <div className="container">
-          <h1 className="text-center text-gray-400">2023</h1>
-
-          <div className=""></div>
+          <h1 className="text-center text-gray-400">
+            © 2024, Designed and developed by{" "}
+            <a
+              className="hover:underline text-blue-500 hover:text-blue-700"
+              href="https://github.com/lazizdevv"
+            >
+              Laziz
+            </a>
+          </h1>
+          <h1 className="text-center text-gray-400">All rights reserved.</h1>
         </div>
       </footer>
     </>
