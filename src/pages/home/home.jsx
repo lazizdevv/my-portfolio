@@ -13,7 +13,7 @@ const img = "/Anonymous.jpg";
 const logo = "/logo_transparent.png";
 
 const Portfolio = () => {
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(true);
 
   // Check local storage for the saved theme preference
   useEffect(() => {
